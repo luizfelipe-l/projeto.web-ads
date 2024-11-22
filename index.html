@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="akuma.ico" type="image/x-icon">
+    <title>Cadastro de Pessoas</title>
+</head>
+<body>
+    <h1>CADASTRO DE PESSOAS</h1>
+
+    <div id="container">
+        <form id="formulario">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome" required><br><br>
+    
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" placeholder="Digite seu CPF" required><br><br>
+    
+            <label for="dataNascimento">Data de Nascimento:</label>
+            <input type="date" id="dataNascimento" required><br><br>
+    
+            <button type="submit">Salvar</button>
+        </form>
+    </div>
+   
+
+    <h2>LISTA DE NOMES</h2>
+
+    <table id="tabelaDados">
+        <tr>
+            <td>Nenhum dado cadastrado ainda</td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
